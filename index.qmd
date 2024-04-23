@@ -1,8 +1,8 @@
 ---
 about:
   template: jolla
-  id: about-block
-  image: "img/my_image.jpg"
+  id: blog-block
+  image: " "
   links:
     - icon: github
       text: Github
@@ -15,17 +15,29 @@ about:
       href: "mailto:sakshigautam1500@gmail.com"  
 ---
 
-::: {#about-block}
+::: {#blog-block}
 :::
 
-# Welcome to my website!
+# Leveraging Existing Tools: A Lesson in Pragmatism for Academics and Software Developers
 
-I aspire to embark on a career path as a Data Analyst and Systems Consultant within the healthcare domain. My goal is to apply my problem-solving abilities towards creating pathways that leverage data for enhancing diagnosis, patient care, and sustainable business solutions. Eventually, I envision overseeing operations within and beyond hospitals, from patient consultations to orchestrating external conferences.
+In the world of academia and software development, there's often an unspoken pressure to constantly innovate and create something entirely new. While innovation is undoubtedly crucial for progress, there's equal importance in recognizing and leveraging the wealth of existing knowledge, methodologies, and tools available.
 
-My undergraduate journey in Strategic Design and Management equipped me with a unique blend of design, business, and management skills. Key courses like Research and Development Methods, Service Design, and Strategic Management laid a strong groundwork.
+As the saying goes, "good writers borrow, great writers steal outright." This notion applies aptly to both academia and software development. Instead of reinventing the wheel with every project, there's immense value in borrowing ideas, techniques, and even code from existing sources.
 
-Driven by a passion for harnessing data for positive change in healthcare, I'm equipped with a diverse skill set, practical experience, and a commitment to continual learning. I'm excited to contribute my expertise and drive to your organization's success in transforming healthcare through data-driven insights and innovative solutions.
+Take, for example, the approach of Ramnath Vaidyanathan, a master at blending existing tools to create remarkable software solutions. By building slidify on top of knitr and rCharts on top of existing D3 libraries, he demonstrated how leveraging existing resources can lead to the creation of powerful tools without the need to solve every problem from scratch.
 
-Please feel free to [contact me](mailto:sakshigautam1500@gmail.com) if you have any questions or would like to discuss potential projects.
+In academia, the pressure to be "new" and "innovative" can sometimes overshadow the pragmatic approach of building upon existing research and methodologies. However, embracing this approach can lead to more efficient progress and breakthroughs.
+
+Similarly, in software development, the principle of minimizing dependencies and keeping things simple reigns supreme. It's crucial to carefully consider the necessity of each feature and avoid adding unnecessary complexity. By focusing on creating exactly enough functionality to meet users' needs without overwhelming them with extraneous features, developers can create more maintainable and user-friendly software.
+
+One area where this principle often comes into play is in the creation of graphical user interfaces (GUIs) and Shiny apps. While these tools may seem appealing for enhancing user interaction, they can introduce significant complexity and maintenance challenges. It's essential to weigh the benefits of such features against their long-term implications, particularly in terms of reproducibility and maintenance overhead.
+
+Moreover, separating concerns by placing GUIs and Shiny apps into separate packages can help maintain the focus and simplicity of the core software while still providing options for users who prefer a more interactive interface.
+
+Ultimately, the key takeaway is the importance of pragmatism in both academia and software development. By recognizing the value of existing resources, minimizing dependencies, and focusing on simplicity, academics and developers alike can create more efficient, maintainable, and impactful solutions.
+
+In a world that often glorifies novelty and complexity, sometimes the greatest achievements come from building upon what already exists. So let's embrace the wisdom of leveraging existing tools and knowledge, for it is in this approach that true progress lies.
+
+
 
 
